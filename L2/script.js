@@ -52,3 +52,82 @@ let j = false;
 console.log("Logical AND:", i && j); // false when both i and j are true, it returns true otherwise it returns false check both value and type 
 console.log("Logical OR:", i || j); // true when either i or j is true, it returns true otherwise it returns false check both value and type 
 console.log("Logical NOT:", !i); // false when i is true, it returns false and when i is false, it returns true check both value and type
+
+// Conditional Statement
+ 
+let age = 19;
+if (age >= 18){
+    console.log("You are eligible to vote.");
+}
+else{
+    console.log("You are not eligible to vote.");
+}
+
+let num=67;
+if(num%2==0){
+    console.log(num,"is an even numbers");
+}
+else{
+    console.log(num,"is an odd number");
+}
+ 
+// Ternary Operator
+let marks = 85;
+let result = (marks >= 50) ? "Pass" : "Fail";
+console.log("Result:", result); // Pass
+
+// Switch Statement
+let day = 3;
+switch (day) {
+    case 1: 
+        console.log("Monday");
+        break;  
+    case 2:
+        console.log("Tuesday");
+        break;  
+    case 3:     
+        console.log("Wednesday");       
+        break;
+    case 4:
+        console.log("Thursday");        
+        break;
+    case 5:
+        console.log("Friday");        
+        break;
+    case 6:
+        console.log("Saturday");        
+        break;  
+    case 7:
+        console.log("Sunday");        
+        break;  
+    default:
+        console.log("Invalid day");
+}
+
+// Prompt and Alert
+let number=prompt("Enter a number:");
+if(number % 5 == 0){
+    alert(number +" is a multiple of 5");   
+}
+else{
+    alert(number +" is not a multiple of  5");
+}
+
+//Grades of students
+let score=88;
+if(score>=90  && score <= 100)
+{
+    console.log("Grade A");
+}
+else if(score>=70 && score<=89){
+    console.log("Grade B");
+}
+else if(score>=60 && score<=69){
+    console.log("Grade C");
+}
+else if(score>=50 && score<=59){
+    console.log("Grade D");
+}
+else if(score>=0 && score<=49){
+    console.log("Grade F");
+}
