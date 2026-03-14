@@ -20,3 +20,5 @@ how to access the value of an object
 */
 student["age"]=student["age"]+5; //update the value of age
 console.log(student["age"]);
+
+console.log(student.name); //accessing the value of name using dot notation
