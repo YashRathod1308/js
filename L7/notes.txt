@@ -1,0 +1,18 @@
+DOM:
+
+=> Attributes:
+1.getAttribute(attr) = to get the attibute value
+2.setAttribute(attr,value)= to set the attribute  new value
+
+=>Insert Element:-
+
+1.node.append(Element)= adds at the end of node(inside)
+2.node.prepend(Element)= adds at the start of node(inside)
+3.node.before(Element)= adds before the end of node(outside)
+4.node.after(Element)= adds after the end of node(outside)
+
+node.remove()=remove the node
+
+Read in MDN :- uppend child and remove child
+
+
