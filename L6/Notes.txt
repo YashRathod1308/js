@@ -1,0 +1,29 @@
+Windows object : 
+-It represents the browser window and provides properties and methods to interact with it. 
+-It is the global object in JavaScript, meaning that all global variables and functions are properties of the window object. 
+-The window object allows you to manipulate the browser window, access the document, handle events, and perform various other tasks related to the web page.
+
+Document object : 
+-It represents the HTML document that is currently loaded in the browser. 
+-It provides properties and methods to access and manipulate the content of the web page.
+-The document object allows you to create, modify, and delete elements, access form data, handle events, and perform various operations on the DOM (Document Object Model) of the web page. 
+-It is a crucial part of web development as it enables developers to interact with and manipulate the structure and content of a web page dynamically. 
+
+
+what's the difference between console.log and console.dir : 
+-console.log is used to output a message to the console
+- while console.dir is used to display an interactive list of the properties of a specified JavaScript object.
+
+Data Manipulation with JavaScript:
+1. Selecting with ID: document.getElementById('id'): Selects a single element with the specified ID. IDs should be unique within a document.
+2. Selecting with Class: document.getElementsByClassName('class'): Selects all elements with the specified class name. Returns an HTMLCollection of matching elements.
+3. Selecting with Tag: document.getElementsByTagName('tag'): Selects all elements with the specified tag name. Returns an HTMLCollection of matching elements.
+4. Query Selector: document.querySelector('selector'): Selects the first element that matches the specified CSS selector. Can be used with any valid CSS selector (e.g., class, ID, attribute).
+5. Query Selector All: document.querySelectorAll('selector'): Selects all elements that match the specified CSS selector. Returns a NodeList of matching elements.  
+
+
+DOM Properties:
+1. innerHTML: This property allows you to get or set the HTML content of an element. When you set innerHTML, it replaces the existing content with the new HTML you provide.
+2. textContent: This property allows you to get or set the text content of an element. It returns the text content of the element and its descendants, without any HTML tags. When you set textContent, it replaces the existing text content with the new text you provide.
+3. innerText: This property is similar to textContent, but it takes into account the CSS styles applied to the element. It returns the visible text content of the element, excluding any hidden or styled elements. When you set innerText, it replaces the existing visible text content with the new text you provide.
+4. tagName: This property returns the tag name of an element in uppercase. For example, if you have a <div> element, its tagName property will return "DIV". It is read-only and cannot be set directly.
