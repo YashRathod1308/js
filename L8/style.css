@@ -1,0 +1,19 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: red;
+    border:1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+} */
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
