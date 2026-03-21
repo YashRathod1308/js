@@ -1,0 +1,48 @@
+Sync in JavaScript:-
+    1. Synchronous code is executed sequentially, meaning each line of code waits for the previous one to finish before executing.
+    2. It can lead to blocking behavior, where the program becomes unresponsive if a long-running operation is encountered.
+    3. Synchronous code is easier to read and understand, as it follows a straightforward flow.
+    4. It is suitable for simple tasks that do not involve time-consuming operations or require user interaction.
+
+    Asynchronous in JavaScript:-
+    1. Asynchronous code allows multiple operations to run concurrently without blocking the main thread.
+    2. It uses callbacks, promises, or async/await to handle operations that may take time to complete, such as network requests or file I/O.
+    3. Asynchronous code can improve performance and responsiveness by allowing other tasks to continue while waiting for an operation to finish.
+    4. It is essential for handling tasks that involve user interaction, such as event handling or animations, without freezing the user interface.
+
+    setTimeout():-
+    It is a built-in JavaScript function that allows you to execute a piece of code after a specified delay. It takes two parameters: the first is the function to be executed, and the second is the delay in milliseconds. For example:
+
+    setTimeout(function() {
+        console.log("This will be logged after 2 seconds");
+    }, 2000);
+
+    callback in javascript:-
+    A callback is a function that is passed as an argument to another function and is executed after a certain event or operation has completed. 
+    Callbacks are commonly used in asynchronous programming to handle the results of operations that may take time to complete, such as network requests or file I/O. 
+    
+    For example:
+    function fetchData(callback) {
+        // Simulating an asynchronous operation
+        setTimeout(function() {
+            // Simulated fetched data
+            const data = "Fetched data";
+            callback(data);
+        }, 2000);
+    }
+
+    Callback Hell:-
+    nested callbacks stacked below one another forminga pyramid structure.
+
+    promises:-
+    it is a eventual completion of task.it is a object in js.it is soltuion to callback hell.
+
+    pending: the result is undefined
+    resolve:the result is  a value
+    reject:the result is an error object
+
+    let promises=new Promise((resolve,reject)={.........})
+
+    two method:-
+    promise.then((res)=>{.....})that are used for after fulfilled  for any work is done.
+    promise.catch((err)=>{.....})that are used for after Rehect  for any work is done.
