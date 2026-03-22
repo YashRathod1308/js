@@ -46,3 +46,9 @@ Sync in JavaScript:-
     two method:-
     promise.then((res)=>{.....})that are used for after fulfilled  for any work is done.
     promise.catch((err)=>{.....})that are used for after Rehect  for any work is done.
+
+Async-Await:-
+    allways return promise 
+    async keyword is used with function.
+    await is pauses the execution of its surrounding  async  function until  the promise is settled.
+    
