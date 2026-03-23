@@ -1,0 +1,12 @@
+Fetch API:-
+    It provides interface for fetching resources.
+    it use request and response object.
+    the fetch()method is used to   fetch  a resource.
+
+    let promise=fetch(url,[options])
+
+    API= application Programming Interface 
+
+AJAX :-  Asynchronous JS & XML
+JSON in javascript Object Notation
+json(): return a second promise that resolve with  the result of parsing the response  body text as json.
